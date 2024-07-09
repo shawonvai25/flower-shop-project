@@ -146,3 +146,179 @@
   flex-direction: column;
   align-items: center;
 }
+
+.hot-deal-section {
+  width: 1922px;
+  height: 620px;
+  background-color: rgba(229, 84, 115, 0.05);
+  margin-top: 128px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.deal-img-container {
+  width: 318px;
+  height: 420px;
+}
+
+.deal-text {
+  width: 594px;
+  height: 228px;
+}
+.deal-text h2 {
+  font-size: 40px;
+  font-weight: 800;
+}
+.deal-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  margin-top: 24px;
+}
+#off {
+  color: rgb(229, 84, 115);
+}
+.sign-up-btn {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  border: 0;
+  border-radius: 8px;
+  background-color: rgb(229, 84, 115);
+  color: white;
+  padding: 20px 43px;
+  margin-left: 34%;
+  margin-top: 4%;
+}
+.deal-img-container {
+  position: relative;
+  right: 145px;
+}
+/* insta section styles */
+.insta-section-text-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 128px;
+}
+.insta-section-text {
+  text-align: center;
+  width: 594px;
+  height: 132px;
+  border: 2px solid maroon;
+}
+.insta-section-text h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  color: rgb(39, 39, 39);
+}
+.insta-section-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(39, 39, 39, 0.6);
+}
+.insta-section-image-container {
+  width: 1440px;
+  height: 398px;
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 45px;
+}
+/* form section styles */
+.form-section {
+  width: 1440px;
+  height: 449px;
+  border: 2px solid red;
+  margin: 0 auto;
+  margin-top: 128px;
+  background-image: url("../Flower Asset/Rectangle\ 9.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-section-container {
+  width: 866px;
+  height: 206px;
+  border: 2px solid red;
+}
+.form-section-container h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  color: rgb(39, 39, 39);
+  text-align: center;
+}
+.form-section-container p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+}
+#form {
+  width: 700px;
+  height: 64px;
+  background-color: rgb(255, 255, 255);
+  text-align: left;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 0;
+  padding: 20px;
+}
+.form-holder {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+.subscribe-btn {
+  background-color: rgb(229, 84, 115);
+  border-radius: 8px;
+  width: 150px;
+  height: 64px;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+.footer-section {
+  width: 1922px;
+  height: 449px;
+  background-color: rgb(17, 16, 16);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-content {
+  width: 625px;
+}
+.footer-content h2 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 58px;
+  color: rgb(229, 84, 115);
+  text-align: center;
+}
+.shop {
+  color: rgb(255, 255, 255);
+}
+.footer-content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.9);
+}
+.footer-content h5 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  margin-top: 35px;
+}
