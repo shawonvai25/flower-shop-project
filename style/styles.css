@@ -19,7 +19,6 @@
 .header-text-container {
   width: 708px;
   height: 506px;
-  border: 2px solid red;
 }
 .header-title {
   width: 750px;
@@ -48,5 +47,84 @@
 .header-image-container {
   width: 635px;
   height: 800px;
-  border: 2px solid red;
+}
+/* feature section styles */
+.feature-text-content h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 48px;
+  text-align: center;
+  color: rgb(39, 39, 39);
+  margin-bottom: 22px;
+}
+.feature-text-content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(39, 39, 39, 0.6);
+}
+.feature-text-content {
+  width: 594px;
+  height: 132px;
+}
+.feature-text-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 178px;
+  margin-bottom: 48px;
+}
+.feature-img-container {
+  width: 1440px;
+  height: 538px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 4px;
+}
+
+.img1 {
+  width: 31%;
+  height: 538px;
+  background-color: rgba(167, 33, 98, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50% 50% 0 0;
+}
+.img2 {
+  width: 31%;
+  height: 538px;
+  background-color: rgba(5, 151, 160, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50% 50% 0 0;
+}
+.img3 {
+  width: 31%;
+  height: 538px;
+  background-color: rgba(71, 125, 17, 0.15);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50% 50% 0 0;
+}
+.flower1,
+.flower2,
+.flower3 {
+  color: rgb(39, 39, 39);
+  font-size: 24px;
+  font-weight: 700;
+  width: 32%;
+  height: 67px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flower-caption-container {
+  width: 1440px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
 }
